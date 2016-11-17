@@ -1,0 +1,37 @@
+﻿<!Doctype html>
+<html>
+<head>
+  <title>Welcome</title>
+  <!-- Font Family - Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="mainDiv" align="right">
+    <h1 id="fireHeading" align="left">Create Expert's</h1>
+    <div align="left">
+       Email Id: <input id="email" type="email" placeholder="email" style="border:1px; border-color:Black;"/><br />
+       Password :<input id="password" type="password" placeholder="password" style="border:1px; border-color:Black;"/>
+    </div>
+    <button id="submitBtn" onclick="submitClick()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBaEvT2J05BTN0UiTdXuD0CfvT1QnxRIo4",
+        authDomain: "sample-2ec8e.firebaseapp.com",
+        databaseURL: "https://sample-2ec8e.firebaseio.com",
+        storageBucket: "sample-2ec8e.appspot.com",
+        messagingSenderId: "218500318997"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="reg.js"></script>
+    <script type="text/javascript">      
+    </script>
+</body>
+</html>
